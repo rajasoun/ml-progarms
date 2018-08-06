@@ -37,11 +37,8 @@ grad = zeros(size(theta));
 %
 
 
-
-
-
-
-
+addpath('../../machine-learning-ex2/ex2');
+[J, grad] = costFunctionReg(theta, X, y, lambda);
 
 
 
