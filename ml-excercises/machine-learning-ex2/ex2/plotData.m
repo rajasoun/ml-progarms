@@ -13,10 +13,9 @@ figure; hold on;
 %
 
 
-
-
-
-
+negative = find(y==0); positive = find(y==1);
+plot(X(positive, 1), X(positive, 2), 'k+')
+plot(X(negative, 1), X(negative, 2), 'ko')
 
 
 
