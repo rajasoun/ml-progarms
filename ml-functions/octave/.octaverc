@@ -1,7 +1,0 @@
-%% Set Terminal
-setenv('GNUTERM','qt')
-%% Set Graphics
-set(0,"defaultaxesfontsize",16)
-set(0,"defaultlinelinewidth",2)
-%% Update prompt
-PS1('>> ');
